@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#canvas1 {
+  background: fixed center url("./assets/background.png");
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid black;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#layer1,
+#layer2,
+#layer3,
+#layer4,
+#player,
+#angler1,
+#angler2,
+#background,
+#gears {
+  display: none;
+}
